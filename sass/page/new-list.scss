@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import "../common/config";
+
+.new-wrap{
+	margin: 0 -15px;
+	.new-item{
+		background: #fff;
+   		width: 380px;
+   		margin: 15px;
+	}
+}
+.nav-cate-wrap{
+	text-align: center;
+	padding:30px 20px ;
+	background: #fff;
+
+	.cate-item{
+		@include inline-block;
+		margin:0 80px;
+		.iconfont{
+			font-size: 28px;
+			vertical-align: middle;
+			margin: 0 5px 0 0;
+		}
+		&.active{
+			color:$baseColor;
+		}
+	}
+}

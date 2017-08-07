@@ -1,0 +1,26 @@
+@import '../../sass/common/config';
+.toast{
+    z-index: 1000000000000001;
+    position:fixed;
+    left:0%;
+    width: 100%;
+    top:50%;
+    margin:-15px 0 0;
+    text-align:center;
+    .msg{
+        padding:10px 20px 5px;
+        color:#fff;
+        background:#3f3f3f;
+        min-width: 150px;
+        max-width:500px;
+        display: inline-block;
+        min-height: 32px;
+        opacity:0.8;
+        filter:alpha(opacity=80);
+        line-height: 1.5;
+        border:1px solid $fuzzyColor;
+        border-radius:32px;
+        font-size: 18px;
+        box-shadow:0 0 15px rgba(0,0,0,0.2);
+    }
+}

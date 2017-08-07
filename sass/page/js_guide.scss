@@ -1,0 +1,53 @@
+.guide-banner{
+	position: relative;
+	width: 100%;
+	height: 2354px;
+}
+.wrap-bg{
+	height: 2354px;
+	width: 1920px;
+	left: 50%;
+	margin-left: -960px;
+	position: absolute;
+	background-image: url('../../images/guide-bg.png')
+}
+
+.step-1{
+    width: 270px;
+    position: absolute;
+    top: 100px;
+    left: 730px;
+}
+
+.step-2{
+	position: absolute;
+    top: 690px;
+    left: 0px;
+}
+
+.step-wrap{
+	position: relative;
+	top: 640px;
+	left: 400px;
+}
+
+.go-login{
+	background-image: url('../../images/guide-zhuce.png')
+}
+.go-id{
+	background-image: url('../../images/guide-renzhen.png')
+}
+.go-bind{
+	background-image: url('../../images/guide-bangding.png')
+}
+
+.go-go{
+	background-image: url('../../images/qianwang.png')
+}
+
+.go-invest{
+	background-image: url('../../images/guide-touzi.png')
+}
+.go-start{
+	background-image: url('../../images/guide-qiyong.png')
+}

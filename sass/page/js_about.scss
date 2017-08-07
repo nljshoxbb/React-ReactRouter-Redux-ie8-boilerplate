@@ -1,0 +1,61 @@
+.about-banner{
+	position: relative;
+	width: 100%;
+	height: 332px;
+	.wrap{
+		width: 1920px;
+		left: 50%;
+		margin-left: -960px;
+		position: absolute;
+	}
+}
+
+.about-list{
+	display: inline-block;
+	height: 72px;
+	width: 72px;
+}
+
+.about-p{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.w600{
+	width: 600px;
+}
+.w530{
+	width: 595px;
+}
+
+.w355{
+	width: 395px;
+}
+.w450{
+	width:590px;
+}
+.about-shenshi{
+	width: 168px;
+	height: 166px;
+}
+
+.about-br{
+	border-right: 1px solid #f2f1f0;
+}
+
+.about-contact{
+	width: 295px;
+	display: inline-block;
+	.about-circle{
+		background-color: #cccbca;
+		display: inline-block;
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 120px;
+		font-size: 70px;
+		color: #fff;
+	}
+}

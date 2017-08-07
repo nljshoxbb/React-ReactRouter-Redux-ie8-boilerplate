@@ -1,0 +1,176 @@
+
+.modal {
+    bottom: 0;
+    // display: none;
+    left: 0;
+    outline: 0 none;
+    overflow-x: hidden;
+    overflow-y:auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+     text-align: center;
+}
+
+.modal-dialog {
+    margin: 10px;
+    position: relative;
+    width: auto;
+    display: inline-block;
+    min-width: 600px;
+    max-width: 1000px;
+    text-align: left;
+    vertical-align: middle;
+}
+.modal-dialog.sm{
+  max-width: 400px;
+}
+.modal-dialog.md{
+  max-width: 900px;
+}
+.modal-dialog.hide{
+  display: none;
+}
+.modal-content {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0 none;
+    position: relative;
+}
+.modal-backdrop {
+    background-color: #000;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.modal-backdrop.in {
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    position: relative;
+}
+.modal-header:after {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 15px;
+    position: absolute;
+    right: 15px;
+}
+.modal-header .close {
+    margin-top: -2px;
+}
+.modal-title {
+    line-height: 1.42857;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+.modal-body {
+    padding: 15px;
+    position: relative;
+    min-height: 90px;
+}
+.modal-footer {
+    border-top: 1px solid #e5e5e5;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.024);
+    border-color: rgba(0, 0, 0, 0.04);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #5c7174;
+    padding: 10px 15px;
+}
+.modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}
+.modal-scrollbar-measure {
+    height: 50px;
+    overflow: scroll;
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+}
+
+
+
+.modal:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    margin-left: -1em;
+    vertical-align: middle;
+    width: 0;
+}
+
+
+.modal-dialog.animated {
+    animation-duration: 1.2s;
+}
+
+.modal-body .close, .modal-header .close {
+    background-color: transparent !important;
+    left: auto;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.bootbox-close-button{
+    cursor: pointer;
+}
+
+
+
+.backdrop-animate-enter {
+  opacity: 0.01;
+}
+
+.backdrop-animate-enter.backdrop-animate-enter-active {
+  opacity:  0.75;
+  transition: opacity 500ms ease-in;
+}
+
+.backdrop-animate-leave {
+  opacity:  0.75;
+}
+
+.backdrop-animate-leave.backdrop-animate-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+.dialog-animate-enter {
+    transform: translate(0px, -25%);
+}
+
+.dialog-animate-enter.dialog-animate-enter-active {
+    transition: all 500ms ease-in;
+    transform: translate(0px, 0px);
+}
+
+.dialog-animate-leave {
+    transform: translate(0px, 0px);
+}
+
+.dialog-animate-leave.dialog-animate-leave-active {
+    transition: all 300ms ease-in;
+    transform: translate(0px, -25%);
+}
+

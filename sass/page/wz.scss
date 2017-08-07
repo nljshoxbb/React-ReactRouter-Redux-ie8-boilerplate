@@ -1,0 +1,138 @@
+.w200{
+	width: 200px;
+}
+ .clearfx{zoom:1;}
+ .clearfx:after{ display:block; clear:both; content:"";}
+ .l{float:left; display:inline; }
+ .r{float:right; display:inline; }
+.myhelpcenter {width:1200px; height:auto; margin:0 auto; padding:0px; }
+.seek{border:1px solid #dadada; width:179px; height:43px; margin-bottom:10px; display:block;}
+.seek .logo{width:41px; height:43px; overflow:hidden; float:left; }
+.seek p{width:116px; height:43px; line-height:43px; padding-left:20px; font-size:18px; color:#000; float:right; border-left:1px solid #dadada; background:#fff; }
+.myhelpcenter_left {width:179px; height:auto;   background:#fff; overflow: hidden; }
+.myhelpcenter_right {width:950px; height:auto; float:right; background:#fff;}
+.myhelpcenter01 {width:179px; margin:0 auto; height:auto; padding:0 0 5px 0; clear:both;}
+.myhelpcenter01 h2 {padding:0px 10px 0 30px; margin-bottom:10px;margin-top:5px; font-weight:bold; float:left; font-size:16px; color:#CB9C49; height:18px; line-height:18px; clear:both;}
+.myhelpcenter01 ul {width:100%; height:auto; clear:both;}
+.myhelpcenter01 ul li { height:30px; line-height:30px; text-align:center; font-size:14px; font-weight:normal; color:#232323; clear:both; overflow:hidden; margin:0 auto;}
+.myhelpcenter01 ul a div{-webkit-transition:0.4s -webkit-transform ease; -o-transition:0.4s -o-transform ease; -moz-transition:0.4s -moz-transform ease; -ms-transition:0.4s -ms-transform ease;color:#232323; height:38px;  margin-left:30px; margin:0 auto;padding:0px; text-align:left; padding-left:35px; font-size:14px; font-weight:normal; color:#232323;line-height:38px;  }
+.myhelpcenter01 ul a .active {text-decoration:none; background:#e1e1e1;}
+.myhelpcenter01 ul a{display:block; }
+.myhelpcenter01 ul a img{-webkit-transition:0.4s -webkit-transform ease; -o-transition:0.4s -o-transform ease; -moz-transition:0.4s -moz-transform ease; -ms-transition:0.4s -ms-transform ease;}
+.myhelpcenter01 ul a:hover img{-webkit-transform:rotate(360deg); -o-transform:rotate(360deg); -moz-transform:rotate(360deg); -ms-transform:rotate(360deg);}
+
+.myhelpcenter01 ul a.lisize div {background:#C59849; color:#fff;}
+.myhelpcenter01 ul a.lisize div span{color:#fff;}
+.myhelpcenter01 ul li a {color:#232323; height:40px; margin:0 auto;padding:0px; width:182px}
+.myhelpcenter01 ul li a span {color:#232323; height:40px; margin:0 auto;padding:0 6px 6px 6px; }
+.myhelpcenter01 ul li a:hover span {text-decoration:none; background:#ccc;}
+.myhelpcenter01 ul li.lisize a{background:#ccc;padding:0 6px 6px 6px;}
+.myhelpcenter01 ul li.lisize a:hover {text-decoration:none;}
+.myhelpcenter01 ul li a:hover {text-decoration:none;}
+.myhelpcenter02 {width:548px; height:auto; padding:0 0 13px 0; clear:both;}
+.myhelpcenter03 {width:548px; height:50px; line-height:50px; border-bottom:1px solid #dadada; }
+.myhelpcenter03 h3 {border-bottom:2px solid #E5322C; height:48px; line-height: 48px;padding:0px 20px; float:left; font-size:24px;}
+.myhelpcenter_right .zy{width:950px; padding: 0px 0px 30px 0px;_padding:0px 20px 30px 30px;}
+.myhelpcenter_right .zy .left{ float:left; width:100%; overflow:hidden;}
+.myhelpcenter_right .zy .left .seek_hot{width:514px; height:42px; border:1px solid #dadada; overflow: hidden; margin-top:15px;}
+.myhelpcenter_right .zy .left .seek_hot .m1{width:460px; background:none; border:none; padding:10px 0px 10px 10px;  height:23px; line-height:23px; float:left; font-size:15px; color:#000; transition: all 1s;}
+.myhelpcenter_right .zy .left .seek_hot input:focus { outline: none; }
+.myhelpcenter_right .nunber{height:30px; line-height:30px; text-align:right; padding-right:4px; margin-top:10px;}
+.myhelpcenter_right .nunber font{color:#2ea4d2;}
+.myhelpcenter_right .zy .left .seek_hot .m2{ float:right; background:url(../../images/static/about/seeklogo.jpg) no-repeat; cursor: pointer; width:41px; height:43px; line-height:43px; border-top: none; border-right: none; border-bottom: none; border-left: 1px solid #dadada; }
+.myhelpcenter_right .zy .title_list{ font-size:14px; color:#000; height:28px; line-height:28px; font-size:14px; cursor:pointer; display:block;}
+.myhelpcenter_right .zy .title_list font{font-family:Arial; color:#CB9C49;}
+.myhelpcenter_right .zy .tt{height:28px; line-height:28px; border-bottom:1px solid #900; margin:10px 0px;}
+.myhelpcenter_right .zy .redline{border-bottom:1px solid #900;}
+.myhelpcenter_right .zy .tt h3{ height:28px; line-height:28px; font-size:14px; font-weight:bold;}
+.myhelpcenter_right .zy .yk_box{width:484px; background:#f2f2f2; padding:14px 18px 14px 18px; margin-top:8px;  position:relative; z-index:1;}
+.myhelpcenter_right .zy .yk_box span{ height:20px; line-height:24px; font-size:14px; color:#333;}
+.myhelpcenter_right .zy .yk_box span font{font-family:Arial; color:#009; font-size:12px;}
+.myhelpcenter_right .zy .yk_box .yk_listlogo{ position:absolute; left:8px; top:-12px; }
+// .myhelpcenter_right .zy .left a{ color:#1a66b3; color:#30a5d0; }
+// .myhelpcenter_right .zy .left a:hover{text-decoration:underline;}
+.myhelpcenter_right .zy .left .yk_jd{width:500px; margin-top:20px; }
+.myhelpcenter_right .zy .left .yk_jd li p{background:#f2f2f2; height:30px; line-height:30px; color:#1a2e85; font-size:14px; padding-left:10px;}
+.myhelpcenter_right .zy .left .ditu{background:#f2f2f2; height:30px; line-height:30px; color:#1a2e85; font-size:14px; padding-left:10px;}
+.myhelpcenter_right .zy .left .yk_jd li{margin-bottom:26px;}
+.myhelpcenter_right .zy .left .yk_jd li div{ padding:7px 7px 0px 10px;}
+.myhelpcenter_right .zy .left .yk_jd li div span{height:18px; line-height:18px; font-size:14px; color:#7f7f7f; }
+.myhelpcenter_right .zy .title_cy{color:#878995;margin-top:20px;}
+.myhelpcenter_right .zy .title_cy a{color:#878995; padding:0px 10px; line-height:24px;}
+.myhelpcenter_right .zy .left .yk_js{ width:530px;  margin-top:10px;}
+.myhelpcenter_right .zy .left .line{margin-top:18px; border-bottom:1px dashed #CCC; overflow:hidden;}
+.myhelpcenter_right .zy .left .yk_js a{width:119px; height:29px; line-height:29px; text-align:center;  background:#f2f2f2; color:#000; display:block; float:left; margin:0px 8px 7px 0px;  display:inline;  }
+.myhelpcenter_right .zy .left .tz{color:#808080;  line-height:18px; margin-top:16px; background: #eee; padding: 10px; }
+.myhelpcenter_right .zy .left .yk_js .active{width:119px; height:29px; line-height:29px; text-align:center;  background:url(../../images/static/yk_jslist.jpg) no-repeat right bottom #f2f2f2; color:#1c2e82; display:block; float:left;  display:inline;  }
+.myhelpcenter_right .zy .left .yk_sf{width:563px; border:1px solid #ccc; border-bottom:none;}
+.myhelpcenter_right .zy .left .yk_sf ul .m{width:80px; border-right:1px solid #ccc;}
+.myhelpcenter_right .zy .left .yk_sf ul li{ height:29px; line-height:30px; vertical-align:middle;  border-bottom:1px solid #ccc; padding:0px 62px 0px 46px;}
+.myhelpcenter_right .zy .left .yk_sf ul .first{ background:#e0e0e0;}
+.myhelpcenter_right .zy .left .yk_sf ul .last{ border-bottom:none;}
+.myhelpcenter_right .zy .left .zcbtn{margin-bottom:16px;}
+.myhelpcenter_right .zy .left .zcrz .p1{width:562px;  line-height:24px; margin-bottom:16px; color:#162d7d; font-size:14px;  text-align:left;  color:#1c2e82;}
+.myhelpcenter_right .zy .left .zcrz p{ margin-bottom:24px;}
+.myhelpcenter_right .zy .left .zcrz p img{ border:1px solid #ccc;}
+.myhelpcenter_right .zy .left .zcrz .p1 span{ width:19px; height:19px; float:left; line-height:19px; background:url(../../images/static/ollist.jpg) no-repeat left 2px; padding-right:12px; color:#fff; padding-top:1px; text-align:center; display:block; }
+.myhelpcenter_right .zy .left .zcrz .p1 a:hover{ text-decoration:underline;}
+.myhelpcenter_right .zy .left .yk_zc .ljzc{background:#2249a8; width:230px; height:30px; cursor:pointer;  border:1px solid #0e3592; line-height:32px; text-align:center;   border-radius:2px; margin:0px auto;}
+.myhelpcenter_right .zy .left .yk_zc .ljzc a{color:#fff;}
+.myhelpcenter_right .zy .left .zcbtn a{width:85px; height:28px; line-height:28px; text-align:center; font-size:14px; color:#fff; float:left; margin-right:1px; display:inline; background:#d5d5d5; display:block;}
+.myhelpcenter_right .zy .left .yk_zc .active{background:#2ea4d2;}
+.myhelpcenter_right .zy .right {
+    width: 188px;
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 25px;
+}
+.myhelpcenter_right .zy .rd {margin-bottom:32px;}
+.myhelpcenter_right .zy .rd dt{ height:16px; line-height:16px; color:#2c2c2c; font-size:16px; margin-bottom:12px; font-weight:bold; border-left: 5px solid #162b7e; padding-left: 6px; }
+.myhelpcenter_right .zy .rd dt img{ padding-right:6px;}
+.myhelpcenter_right .zy .rd dd{ margin-top:14px; background:url(../../images/static/hotlist.jpg) no-repeat left 7px; padding-left:14px; }
+.myhelpcenter_right .zy .rd dd a{ color:#30a5d0; font-size:14px; height:16px; line-height:16px; }
+.myhelpcenter_right .zy .rd dd a:hover{text-decoration:underline;}
+.myhelpcenter_right .zy .rd2 {margin-bottom:32px;}
+.myhelpcenter_right .zy .rd2 dt{ height:16px; line-height:16px; color:#2c2c2c; font-size:16px; margin-bottom:12px; font-weight:bold; border-left: 5px solid #CB9C49; padding-left: 6px; }
+.myhelpcenter_right .zy .rd2 dt img{ padding-right:6px;}
+.myhelpcenter_right .zy .rd2 .d1{color:#CB9C49; font-size:16px; font-weight:bold;}
+.myhelpcenter_right .zy .rd2 .d2 {  width:158px; height:24px; line-height:24px; }
+.myhelpcenter_right .zy .rd2 .d3 { background:#CB9C49; width:158px; height:26px; line-height:26px; margin-top:8px; text-align:center; border-radius:3px; }
+.myhelpcenter_right .zy .rd2 .d3 a{color:#fff; font-size:14px; } 
+.myhelpcenter_right .zy .rd3 dt img{ padding-right:6px;}
+.myhelpcenter_right .zy .rd3 dt{ height:16px; line-height:16px; color:#2c2c2c; font-size:16px; margin:12px 0px 17px 0px; font-weight:bold; border-left: 5px solid #C59849; padding-left: 6px;}
+.myhelpcenter_right .zy .rd3 .d1{ background:#CB9C49; width:158px; height:26px; line-height:26px; margin-top:8px; text-align:center; border-radius:3px; margin-bottom:11px;}
+.myhelpcenter_right .zy .rd3 .d1 a{color:#fff; font-size:14px; position:relative;}
+.myhelpcenter_right .zy .rd3 .d1 a img{position:relative;vertical-align:top;*vertical-align:-5px;*top:-3px;_vertical-align:-2px;_top:0px;} 
+.myhelpcenter_right .zy .rd3 .d2{  height:32px; line-height:32px; font-size:14px; color:#828282;}
+
+.myhelpcenter .left-btn {
+    display: block;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+// .myhelpcenterContent{
+// 	width: 200px;
+// }
+.left-btn-bottom{
+	display: block;
+	height: 62px;
+	line-height: 62px;
+	text-align: center;
+	background: #fff;
+	
+}
+.w675{
+	width: 675px;
+}
+
+.plr35{
+	padding-right: 35px;
+	padding-left: 35px;
+}
+.w710{
+	width: 710px;
+}

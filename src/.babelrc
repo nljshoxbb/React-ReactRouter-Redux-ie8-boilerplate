@@ -1,0 +1,31 @@
+{
+    "presets": [
+        "es2015",
+        "stage-0",
+        "react"
+    ],
+    "plugins": [
+        "transform-async-to-generator",
+        "transform-decorators-legacy",
+        [
+            "transform-runtime",
+            {
+                "polyfill": true,
+                "regenerator": true
+            }
+        ],
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "style": "css"
+            }
+        ],
+        [
+            "transform-es2015-modules-commonjs",
+            {
+                "loose": true
+            }
+        ]
+    ]
+}

@@ -1,0 +1,89 @@
+
+.insurance-banner{
+	position: relative;
+	width: 100%;
+	height: 821px;
+
+	
+}
+.wrap-bg{
+	height: 821px;
+	width: 1920px;
+	left: 50%;
+	margin-left: -960px;
+	position: absolute;
+	
+}
+.text-cont{
+		position: absolute;
+		background-color: red;
+}
+.insurance-bg1{
+	background-image: url('../../images/insurance1.png');
+}
+.insurance-bg2{
+	background-image: url('../../images/insurance2.jpg');
+}
+.insurance-bg3{
+	background-image: url('../../images/insurance3.png');
+}
+.insurance-bg4{
+	background-image: url('../../images/insurance4.png');
+}
+.insurance-bg5{
+	background-image: url('../../images/insurance5.png');
+}
+.insurance-bg6{
+	background-image: url('../../images/insurance6.png');
+}
+
+.insurance-title{
+	display: inline-block;
+	// width: 390px;
+	height: 78px;
+	line-height: 78px;
+	border-radius: 40px;
+	color: #fff;
+	font-size: 40px;
+	margin-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+.title2{
+	background-color: #097c25;
+}
+.title3{
+	background-color: #067a65;
+}
+.title4{
+	background-color: #a86804;
+}
+.title5{
+	background-color: #883fc1;
+}
+.title6{
+	background-color: #715e34;
+}
+
+.title-color2{
+	color: #016d1f;
+}
+.title-color3{
+	color: #014135;
+}
+.title-color4{
+	color: #674306;
+}
+.title-color5{
+	color: #5a325f;
+}
+.title-color6{
+	color: #46391e;
+}
+
+.insurance-cont{
+	width: 900px;
+
+}
