@@ -31,9 +31,9 @@ var entris = fs.readdirSync(entryPath).reduce(function (o, filename) {
 }, {});
 
 entris.commons = [
-
     "es5-shim",
     'es5-shim/es5-sham',
+    "es6-promise",
     "console-polyfill",
     "react",
     "react-dom",
@@ -55,10 +55,10 @@ var plugins = [
     new ExtractTextPlugin('css/[name].css', { allChunks: true }),
 
     new HtmlWebpackPlugin({
-        inject: true,
+        inject: false,
         // chunks: ['commons', 'app'],
         template: './index.html',
-        filename: '../../index.html'
+        filename: './index.html'
     }),
 ]
 
@@ -80,7 +80,7 @@ module.exports = {
     output: {
         path: outputPath,
         filename: 'js/[name].bundle.js',
-        publicPath: '/ie8/dist/',
+        publicPath: '/dist/',
         chunkFilename: 'js/[name].chunk.js',
     },
     module: {

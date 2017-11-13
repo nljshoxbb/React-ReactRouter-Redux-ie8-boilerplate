@@ -39,6 +39,22 @@ const routes = {
                 }, 'dashboard')
             }
         },
+        {
+            path: '/testComponent',
+            getComponent: function (nextState, cb) {
+                require.ensure([], function (require) {
+                    cb(null, require('./testComponent').default)
+                }, 'testComponent')
+            }
+        },
+         {
+            path: '/antComponent',
+            getComponent: function (nextState, cb) {
+                require.ensure([], function (require) {
+                    cb(null, require('./antComponent').default)
+                }, 'antComponent')
+            }
+        },
 
     ]
 }
